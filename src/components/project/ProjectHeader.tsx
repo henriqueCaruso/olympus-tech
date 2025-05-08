@@ -51,11 +51,10 @@ export function ProjectHeader({ project }: ProjectHeaderProps) {
           <span className="text-sm text-olympus-text-secondary">Progresso</span>
           <span className="text-sm font-medium">{project.progress}%</span>
         </div>
-        <Progress value={project.progress} className="h-2" 
-          style={{ 
-            backgroundColor: 'rgba(255,255,255,0.1)',
-            '& > div': { backgroundColor: getProgressColor() } 
-          }} 
+        <Progress 
+          value={project.progress} 
+          className={cn("h-2", getProgressColor())}
+          style={{ backgroundColor: 'rgba(255,255,255,0.1)' }} 
         />
       </div>
       
