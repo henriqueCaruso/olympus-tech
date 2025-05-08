@@ -81,7 +81,9 @@ const Templates = () => {
             {filteredTemplates.map((template) => (
               <TemplateCard
                 key={template.id}
-                template={template}
+                name={template.name}
+                description={template.description}
+                icon={template.icon}
                 onClick={() => navigate(`/novo-projeto?template=${template.id}`)}
               />
             ))}
