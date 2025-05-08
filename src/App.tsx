@@ -6,9 +6,17 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
+import Projects from "./pages/Projects";
 import ProjectDetail from "./pages/ProjectDetail";
 import ProjectChat from "./pages/ProjectChat";
+import ProjectAnalytics from "./pages/ProjectAnalytics";
+import ProjectArtifacts from "./pages/ProjectArtifacts";
 import NewProject from "./pages/NewProject";
+import Analytics from "./pages/Analytics";
+import Tutorials from "./pages/Tutorials";
+import Help from "./pages/Help";
+import Settings from "./pages/Settings";
+import Templates from "./pages/Templates";
 
 const queryClient = new QueryClient();
 
@@ -20,15 +28,17 @@ const App = () => (
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Index />} />
-          <Route path="/meus-projetos" element={<NotFound />} />
+          <Route path="/meus-projetos" element={<Projects />} />
           <Route path="/novo-projeto" element={<NewProject />} />
-          <Route path="/analytics" element={<NotFound />} />
-          <Route path="/tutoriais" element={<NotFound />} />
-          <Route path="/ajuda" element={<NotFound />} />
-          <Route path="/configuracoes" element={<NotFound />} />
+          <Route path="/analytics" element={<Analytics />} />
+          <Route path="/tutoriais" element={<Tutorials />} />
+          <Route path="/ajuda" element={<Help />} />
+          <Route path="/configuracoes" element={<Settings />} />
           <Route path="/projeto/:id" element={<ProjectDetail />} />
           <Route path="/projeto/:id/chat" element={<ProjectChat />} />
-          <Route path="/templates" element={<NotFound />} />
+          <Route path="/projeto/:id/analytics" element={<ProjectAnalytics />} />
+          <Route path="/projeto/:id/artifacts" element={<ProjectArtifacts />} />
+          <Route path="/templates" element={<Templates />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
