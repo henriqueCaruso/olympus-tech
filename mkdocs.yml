@@ -1,0 +1,82 @@
+
+site_name: Olympus Tech
+site_description: Documentação oficial do Olympus Tech - Assistência com agentes inspirados nos deuses gregos
+site_author: Equipe Olympus Tech
+repo_url: https://github.com/seu-usuario/olympus-tech
+repo_name: olympus-tech
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  language: pt-BR
+  palette:
+    scheme: slate
+    primary: '#10152B'
+    accent: '#D4AF37'
+  font:
+    text: Roboto
+    code: Roboto Mono
+  features:
+    - navigation.sections
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.top
+    - search.suggest
+    - search.highlight
+  icon:
+    repo: fontawesome/brands/github
+  logo: assets/logo.png
+  favicon: assets/favicon.ico
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/seu-usuario/olympus-tech
+      name: Olympus Tech no GitHub
+
+extra_css:
+  - stylesheets/extra.css
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - footnotes
+  - meta
+  - pymdownx.arithmatex
+  - pymdownx.betterem
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+  - toc:
+      permalink: true
+
+nav:
+  - Início: index.md
+  - Produto:
+      - Visão Geral: 01-product/overview.md
+      - Personas: 01-product/personas.md
+  - Arquitetura:
+      - Visão Geral: 02-architecture/overview.md
+      - ADRs:
+          - ADR-0001 - Design System: 02-architecture/adr/ADR-0001.md
+  - Implementação:
+      - Frontend: 03-implementation/frontend/index.md
+      - Backend: 03-implementation/backend/index.md
+  - API: 04-api/index.md
+  - Banco de Dados: 05-database/index.md
+  - Testes: 06-testing/index.md
+  - Deployment: 07-deployment/index.md
+  - Histórico de Status: 08-status-history/index.md

@@ -1,0 +1,36 @@
+
+:root {
+  --md-primary-fg-color: #10152B;
+  --md-primary-fg-color--light: #232b4d;
+  --md-primary-fg-color--dark: #080c1b;
+  --md-accent-fg-color: #D4AF37;
+  --md-accent-fg-color--transparent: #d4af3720;
+}
+
+/* Estilo para títulos */
+.md-typeset h1 {
+  font-family: 'Playfair Display', serif;
+  color: var(--md-accent-fg-color);
+}
+
+.md-typeset h2 {
+  font-family: 'Playfair Display', serif;
+  border-bottom: 1px solid var(--md-accent-fg-color);
+  padding-bottom: 0.3em;
+}
+
+/* Estilo especial para menções aos agentes/deuses */
+.deity {
+  color: var(--md-accent-fg-color);
+  font-family: 'Cinzel', serif;
+  font-weight: bold;
+}
+
+/* Cards com borda dourada */
+.olympus-card {
+  border: 1px solid var(--md-accent-fg-color);
+  border-radius: 4px;
+  padding: 1rem;
+  margin: 1rem 0;
+  background-color: var(--md-primary-fg-color--light);
+}

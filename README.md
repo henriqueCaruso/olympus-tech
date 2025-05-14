@@ -1,73 +1,99 @@
-# Welcome to your Lovable project
 
-## Project info
+# Olympus Tech - Assistência com Agentes Inspirados nos Deuses Gregos
 
-**URL**: https://lovable.dev/projects/44dd3b41-b1f6-4413-be2e-cd0714b30f5d
+[![Documentação](https://img.shields.io/badge/docs-MkDocs-blue.svg)](https://seu-usuario.github.io/olympus-tech)
+[![CI/CD](https://github.com/seu-usuario/olympus-tech/actions/workflows/docs.yml/badge.svg)](https://github.com/seu-usuario/olympus-tech/actions/workflows/docs.yml)
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue.svg)](https://www.typescriptlang.org/)
+[![React](https://img.shields.io/badge/React-18.3-blue.svg)](https://reactjs.org/)
 
-## How can I edit this code?
+<div align="center">
+  <img src="docs/assets/olympus-logo.png" alt="Olympus Tech Logo" width="200"/>
+  <p><em>Onde a sabedoria dos deuses encontra a tecnologia moderna</em></p>
+</div>
 
-There are several ways of editing your application.
+## 📝 Visão Geral do Projeto
 
-**Use Lovable**
+O Olympus Tech é uma plataforma avançada de assistência baseada em agentes inteligentes inspirados nos deuses gregos do Olimpo. Cada agente possui conhecimentos especializados em diferentes áreas do desenvolvimento de software e gerenciamento de projetos, oferecendo uma experiência de assistência única e personalizada.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/44dd3b41-b1f6-4413-be2e-cd0714b30f5d) and start prompting.
+### 🏛️ Agentes do Olympus
 
-Changes made via Lovable will be committed automatically to this repo.
+| Agente | Divindade | Especialidade |
+|--------|-----------|--------------|
+| Líder de Projetos | Zeus | Coordenação de projetos e gestão de equipes |
+| Arquiteto de Sistemas | Atena | Design de arquitetura e análise estratégica |
+| Desenvolvedor | Hefesto | Implementação técnica e solução de problemas |
+| Designer UX/UI | Apolo | Design de interfaces e experiência do usuário |
+| Comunicador | Hermes | Documentação e comunicação entre equipes |
 
-**Use your preferred IDE**
+## 🚀 Principais Recursos
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- **Chat com Agentes Especializados**: Converse com agentes de diferentes especialidades
+- **Análise de Projetos**: Painéis analíticos detalhados sobre o progresso e saúde do projeto
+- **Geração de Artefatos**: Criação automatizada de documentação, diagramas e protótipos
+- **Templates de Projetos**: Diversos templates para iniciar projetos rapidamente
+- **Interface Inspirada na Mitologia**: Experiência visual única com tema baseado na Grécia antiga
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 🛠️ Tecnologias Utilizadas
 
-Follow these steps:
+- **Frontend**: React, TypeScript, Tailwind CSS, shadcn/ui
+- **Gerenciamento de Estado**: React Query
+- **Roteamento**: React Router
+- **Estilização**: Tailwind CSS
+- **Componentes**: shadcn/ui (baseado em Radix UI)
+- **Visualizações**: Recharts
+- **Documentação**: MkDocs com Material theme
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## 📋 Requisitos
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+- Node.js 18+
+- npm 9+
+- Python 3.8+ (para documentação local)
 
-# Step 3: Install the necessary dependencies.
-npm i
+## 🏁 Primeiros Passos
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+```bash
+# Clone o repositório
+git clone https://github.com/seu-usuario/olympus-tech.git
+
+# Entre no diretório
+cd olympus-tech
+
+# Instale as dependências
+npm install
+
+# Inicie o servidor de desenvolvimento
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+A aplicação estará disponível em [http://localhost:5173](http://localhost:5173).
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 📚 Documentação
 
-**Use GitHub Codespaces**
+A documentação completa está disponível em [https://seu-usuario.github.io/olympus-tech](https://seu-usuario.github.io/olympus-tech).
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Para executar a documentação localmente:
 
-## What technologies are used for this project?
+```bash
+# Instale o MkDocs e o tema Material
+pip install mkdocs-material
 
-This project is built with:
+# Inicie o servidor de documentação
+mkdocs serve
+```
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+A documentação estará disponível em [http://localhost:8000](http://localhost:8000).
 
-## How can I deploy this project?
+## 🤝 Contribuindo
 
-Simply open [Lovable](https://lovable.dev/projects/44dd3b41-b1f6-4413-be2e-cd0714b30f5d) and click on Share -> Publish.
+Contribuições são bem-vindas! Por favor, leia nosso [Guia de Contribuição](CONTRIBUTING.md) para mais informações sobre como participar do projeto.
 
-## Can I connect a custom domain to my Lovable project?
+## 📄 Licença
 
-Yes, you can!
+Este projeto está licenciado sob a licença MIT - veja o arquivo [LICENSE](LICENSE) para detalhes.
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## 🙏 Agradecimentos
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+- A todos os contribuidores que dedicaram seu tempo e conhecimento
+- Às bibliotecas e frameworks de código aberto que utilizamos
+- À mitologia grega por inspirar nossa abordagem de assistentes especializados
