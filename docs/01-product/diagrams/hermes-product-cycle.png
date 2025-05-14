@@ -1,0 +1,146 @@
+
+# Ciclo de Produto com Hermes
+
+Este diagrama ilustra o papel central do agente Hermes (Product Manager) em cada etapa do ciclo de vida do produto.
+
+```mermaid
+graph TD
+    A[Ideação] --> B[Definição]
+    B --> C[Planejamento]
+    C --> D[Desenvolvimento]
+    D --> E[Lançamento]
+    E --> F[Medição]
+    F --> G[Iteração]
+    G --> A
+    
+    H1[Pesquisa de Mercado] --> A
+    H2[Análise Competitiva] --> A
+    H3[Feedback de Usuários] --> A
+    
+    A --> I1[Product Discovery]
+    A --> I2[Hipóteses de Valor]
+    A --> I3[Visão de Produto]
+    
+    B --> J1[Requisitos]
+    B --> J2[User Stories]
+    B --> J3[Critérios de Aceitação]
+    
+    C --> K1[Priorização]
+    C --> K2[Roadmap]
+    C --> K3[Release Planning]
+    
+    D --> L1[Suporte ao Time]
+    D --> L2[Refinamento de Backlog]
+    D --> L3[Desbloqueio de Impedimentos]
+    
+    E --> M1[Go-to-Market]
+    E --> M2[Comunicação]
+    E --> M3[Treinamento]
+    
+    F --> N1[Analytics]
+    F --> N2[Feedback]
+    F --> N3[KPIs]
+    
+    G --> O1[Aprendizados]
+    G --> O2[Pivots]
+    G --> O3[Otimizações]
+    
+    style A fill:#D4AF37,stroke:#10152B,stroke-width:2px
+    style B fill:#D4AF37,stroke:#10152B,stroke-width:2px
+    style C fill:#D4AF37,stroke:#10152B,stroke-width:2px
+    style E fill:#D4AF37,stroke:#10152B,stroke-width:2px
+    style F fill:#D4AF37,stroke:#10152B,stroke-width:2px
+    style G fill:#D4AF37,stroke:#10152B,stroke-width:2px
+```
+
+## O Valor de Hermes em Cada Fase do Ciclo
+
+As fases destacadas em dourado representam momentos onde a contribuição de Hermes é particularmente estratégica:
+
+### 1. Ideação
+Hermes facilita a transformação de ideias brutas em conceitos viáveis, filtrando oportunidades e conectando-as a necessidades reais dos usuários.
+
+**Atividades-chave:**
+- Consolidação de inputs de mercado, usuários e stakeholders
+- Organização de workshops de ideação
+- Validação inicial de conceitos
+
+### 2. Definição
+Hermes traduz conceitos abstratos em requisitos concretos que podem ser implementados, estabelecendo clareza sobre o que será construído e por quê.
+
+**Atividades-chave:**
+- Criação de especificações de produto
+- Escrita de histórias de usuário claras
+- Definição de critérios de sucesso mensuráveis
+
+### 3. Planejamento
+Hermes equilibra valor para o usuário, impacto no negócio, esforço técnico e riscos para criar um roadmap factível e estratégico.
+
+**Atividades-chave:**
+- Priorização baseada em frameworks objetivos
+- Sequenciamento lógico de entregas
+- Alinhamento de expectativas com stakeholders
+
+### 4. Desenvolvimento
+Durante a construção, Hermes mantém o foco no valor central, ajudando a equipe a navegar por decisões táticas sem perder de vista os objetivos estratégicos.
+
+**Atividades-chave:**
+- Clarificação de requisitos durante implementação
+- Gestão de escopo e trade-offs
+- Testes de usabilidade intermediários
+
+### 5. Lançamento
+Hermes coordena a transição do desenvolvimento para o mercado, garantindo que o valor criado seja efetivamente entregue aos usuários.
+
+**Atividades-chave:**
+- Planejamento de rollout gradual
+- Coordenação cross-funcional (marketing, vendas, suporte)
+- Preparação de materiais de comunicação
+
+### 6. Medição
+Após o lançamento, Hermes lidera a coleta e interpretação de dados para avaliar o sucesso e identificar oportunidades de melhoria.
+
+**Atividades-chave:**
+- Acompanhamento de métricas-chave
+- Coleta de feedback qualitativo
+- Identificação de padrões de uso inesperados
+
+### 7. Iteração
+Com base nos aprendizados, Hermes guia o refinamento contínuo do produto, fechando o ciclo e alimentando uma nova rodada de ideação.
+
+**Atividades-chave:**
+- Documentação de lições aprendidas
+- Identificação de oportunidades de otimização
+- Ajustes no direcionamento estratégico
+
+## Habilidades de Comunicação de Hermes
+
+Como mensageiro dos deuses, Hermes possui o dom de traduzir e comunicar efetivamente entre diferentes "mundos":
+
+### Tradução Multidirecional
+- **Para Stakeholders**: Traduz complexidades técnicas em valor de negócio
+- **Para Desenvolvedores**: Traduz necessidades de negócio em requisitos implementáveis
+- **Para Designers**: Traduz comportamentos de usuários em oportunidades de design
+- **Para Usuários**: Traduz funcionalidades em benefícios tangíveis
+
+### Adaptação de Linguagem
+- **Linguagem de Negócio**: ROI, market share, conversão
+- **Linguagem Técnica**: API, performance, escalabilidade
+- **Linguagem de Design**: usabilidade, experiência, jornada
+- **Linguagem de Usuário**: problemas, necessidades, objetivos
+
+A verdadeira habilidade de Hermes está em manter todos os participantes do ciclo de produto alinhados e falando a mesma "língua", mesmo quando possuem perspectivas e prioridades diferentes.
+
+## Artefatos Principais de Hermes
+
+Ao longo do ciclo de produto, Hermes cria e mantém diversos documentos e artefatos:
+
+- **Vision Statement**: Direcionamento de alto nível para o produto
+- **Product Requirements Document (PRD)**: Especificação detalhada
+- **User Stories**: Requisitos na perspectiva do usuário
+- **Product Roadmap**: Visão temporal de evolução
+- **Feature Specifications**: Detalhamento técnico de funcionalidades
+- **Métricas e KPIs**: Indicadores de sucesso
+- **Release Notes**: Comunicação de mudanças e novidades
+
+Cada artefato tem seu momento e audiência específica, e Hermes sabe exatamente quando e como utilizá-los.

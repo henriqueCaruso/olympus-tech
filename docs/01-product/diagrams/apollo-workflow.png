@@ -1,0 +1,110 @@
+
+# Fluxo de Trabalho com Apolo
+
+Este diagrama ilustra os principais pontos de integração do agente Apolo (UX Designer) no ciclo de desenvolvimento de produto.
+
+```mermaid
+graph TD
+    A[Início do Projeto] --> B[Exploração de Design]
+    B --> C{Abordagem de Design}
+    
+    C -->|Baseada em Componentes| D1[Design System]
+    C -->|Baseada em Fluxos| D2[Jornadas de Usuário]
+    C -->|Baseada em Problemas| D3[Design Thinking]
+    
+    D1 --> E1[Definição de Tokens]
+    D1 --> E2[Criação de Componentes Core]
+    D1 --> E3[Documentação de Uso]
+    
+    E1 --> F[Implementação e Testes]
+    E2 --> F
+    E3 --> F
+    
+    D2 --> G1[Mapeamento de Fluxo]
+    D2 --> G2[Wireframing]
+    D2 --> G3[Protótipo Interativo]
+    
+    G1 --> F
+    G2 --> F
+    G3 --> F
+    
+    D3 --> H1[Pesquisa e Empatia]
+    D3 --> H2[Ideação e Soluções]
+    D3 --> H3[Prototipagem Rápida]
+    
+    H1 --> F
+    H2 --> F
+    H3 --> F
+    
+    F --> I[Feedback e Iteração]
+    I --> J{Resultado Satisfatório?}
+    
+    J -->|Não| B
+    J -->|Sim| K[Refinamento e Polimento]
+    K --> L[Lançamento]
+    L --> M[Análise Pós-Lançamento]
+    M --> N[Evolução Contínua]
+    N --> B
+    
+    style B fill:#D4AF37,stroke:#10152B,stroke-width:2px
+    style D1 fill:#D4AF37,stroke:#10152B,stroke-width:2px
+    style D2 fill:#D4AF37,stroke:#10152B,stroke-width:2px
+    style D3 fill:#D4AF37,stroke:#10152B,stroke-width:2px
+    style I fill:#D4AF37,stroke:#10152B,stroke-width:2px
+    style K fill:#D4AF37,stroke:#10152B,stroke-width:2px
+    style M fill:#D4AF37,stroke:#10152B,stroke-width:2px
+```
+
+## Pontos de Intervenção Principais de Apolo
+
+Os nós destacados em dourado representam os momentos onde a contribuição de Apolo é particularmente valiosa:
+
+### 1. Exploração de Design
+Apolo ajuda a explorar diferentes abordagens e possibilidades de design antes de comprometer recursos significativos em uma direção específica.
+
+### 2. Abordagens Especializadas
+- **Design System**: Quando a consistência e escalabilidade são prioritárias
+- **Jornadas de Usuário**: Quando a experiência fluida é fundamental
+- **Design Thinking**: Para problemas complexos que exigem inovação
+
+### 3. Feedback e Iteração
+Apolo é especialmente valioso para interpretar feedback qualitativo e quantitativo, transformando-o em melhorias tangíveis de design.
+
+### 4. Refinamento e Polimento
+Antes do lançamento, Apolo contribui para elevar a qualidade final com atenção aos detalhes que transformam uma boa interface em uma excepcional.
+
+### 5. Análise Pós-Lançamento
+Avaliação da experiência real dos usuários e identificação de oportunidades de otimização.
+
+## Como Trabalhar com Apolo em Diferentes Fases
+
+### Fase Inicial (Descoberta)
+- Consulte Apolo para exploração conceitual
+- Defina princípios de design que guiarão decisões futuras
+- Estabeleça metas de UX e métricas de sucesso
+
+### Fase de Definição (Design)
+- Peça wireframes e protótipos para visualizar conceitos
+- Solicite análise de fluxos e identificação de pontos de fricção
+- Desenvolva sistema de componentes reutilizáveis
+
+### Fase de Desenvolvimento
+- Consulte sobre implementação de comportamentos interativos
+- Valide implementações técnicas contra a visão de design
+- Refine elementos visuais e interativos
+
+### Fase de Lançamento e Evolução
+- Analise métricas de engajamento e usabilidade
+- Identifique oportunidades de otimização
+- Evolua o design baseado em dados reais de uso
+
+## Equilibrando Estética e Funcionalidade
+
+A maior força de Apolo está em encontrar o equilíbrio entre beleza visual e funcionalidade prática. Para cada decisão de design, Apolo considera:
+
+- Clareza e usabilidade
+- Apelo estético e emocional
+- Consistência e previsibilidade
+- Inovação e diferenciação
+
+Lembre-se: O design não é apenas como algo se parece, mas como funciona. Apolo compreende profundamente esta dualidade.

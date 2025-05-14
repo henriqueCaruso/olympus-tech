@@ -1,0 +1,140 @@
+
+# Fluxo de Trabalho com Hefesto
+
+Este diagrama ilustra como integrar efetivamente o agente Hefesto (Desenvolvedor) no ciclo de desenvolvimento de software.
+
+```mermaid
+graph TD
+    A[Requisitos] --> B{Tipo de<br>Implementação?}
+    
+    B -->|Nova Feature| C1[Planejamento Técnico]
+    B -->|Correção de Bug| C2[Diagnóstico]
+    B -->|Refatoração| C3[Análise de Código]
+    B -->|Otimização| C4[Profiling de Performance]
+    
+    C1 --> D1[Design de Componentes]
+    D1 --> E1[Implementação]
+    E1 --> F1[Testes Unitários]
+    F1 --> G[Code Review]
+    
+    C2 --> D2[Reprodução de Bug]
+    D2 --> E2[Identificação de Causa Raiz]
+    E2 --> F2[Implementação de Correção]
+    F2 --> G
+    
+    C3 --> D3[Identificação de Débito Técnico]
+    D3 --> E3[Design Melhorado]
+    E3 --> F3[Reescrita Incremental]
+    F3 --> G
+    
+    C4 --> D4[Identificação de Gargalos]
+    D4 --> E4[Estratégias de Otimização]
+    E4 --> F4[Implementação de Melhorias]
+    F4 --> G
+    
+    G --> H[Integração]
+    H --> I[Testes de Integração]
+    I --> J[Deploy]
+    J --> K[Validação Pós-Deploy]
+    K --> L[Documentação]
+    
+    style C1 fill:#D4AF37,stroke:#10152B,stroke-width:2px,color:#10152B
+    style C2 fill:#D4AF37,stroke:#10152B,stroke-width:2px,color:#10152B
+    style C3 fill:#D4AF37,stroke:#10152B,stroke-width:2px,color:#10152B
+    style C4 fill:#D4AF37,stroke:#10152B,stroke-width:2px,color:#10152B
+    style E1 fill:#D4AF37,stroke:#10152B,stroke-width:2px,color:#10152B
+    style E2 fill:#D4AF37,stroke:#10152B,stroke-width:2px,color:#10152B
+    style E3 fill:#D4AF37,stroke:#10152B,stroke-width:2px,color:#10152B
+    style E4 fill:#D4AF37,stroke:#10152B,stroke-width:2px,color:#10152B
+    style G fill:#D4AF37,stroke:#10152B,stroke-width:2px,color:#10152B
+```
+
+## Pontos de Máximo Valor de Hefesto
+
+Os nós destacados em dourado representam os momentos onde a contribuição de Hefesto é particularmente valiosa:
+
+### 1. Fase Inicial de Cada Tipo de Implementação
+Hefesto traz valor significativo nas etapas iniciais de planejamento técnico, onde sua experiência em transformar requisitos em estruturas de código é crucial:
+
+- **Planejamento Técnico para Novas Features**: Definição de arquitetura de componentes, interfaces e integrações
+- **Diagnóstico de Bugs**: Análise sistemática para identificar a origem dos problemas
+- **Análise de Código para Refatoração**: Identificação de padrões problemáticos e oportunidades de melhoria
+- **Profiling de Performance**: Instrumentação e análise científica para identificar gargalos reais
+
+### 2. Fase de Implementação Central
+A implementação concreta é onde as habilidades de "forja" de Hefesto brilham:
+
+- **Implementação de Features**: Código limpo, manutenível e alinhado com requisitos
+- **Identificação de Causa Raiz**: Compreensão profunda de sistemas para identificação precisa de problemas
+- **Design Melhorado**: Padrões e práticas modernas para código sustentável
+- **Estratégias de Otimização**: Abordagens específicas para melhorar performance
+
+### 3. Code Review
+Hefesto aporta valor especial em revisões de código, aplicando seu conhecimento técnico para:
+- Identificar falhas potenciais de segurança
+- Sugerir otimizações não-óbvias
+- Garantir consistência com padrões de codificação
+- Compartilhar conhecimento sobre melhores práticas
+
+## Diferentes Tipos de Desafios para Hefesto
+
+### 1. Implementação de Novas Features
+Hefesto excele em traduzir conceitos abstratos em código concreto, definindo:
+- Estruturas de dados apropriadas
+- Separação de responsabilidades
+- Interfaces bem definidas
+- Estratégias de testabilidade
+
+### 2. Correção de Bugs
+A habilidade de Hefesto para debugging sistemático inclui:
+- Reprodução consistente de problemas
+- Isolamento de variáveis
+- Análise de logs e stacktraces
+- Correções que resolvem a causa raiz, não apenas os sintomas
+
+### 3. Refatoração
+Quando se trata de melhorar código existente, Hefesto aplica:
+- Padrões de design apropriados
+- Eliminação de duplicação
+- Separação de preocupações
+- Migração incremental para novas abordagens
+
+### 4. Otimização de Performance
+Para desafios de performance, Hefesto utiliza:
+- Benchmarking científico
+- Otimizações algoritcas
+- Gerenciamento eficiente de recursos
+- Técnicas específicas para cada tipo de gargalo
+
+## Integrando Hefesto com Outros Agentes
+
+Para resultados ideais, Hefesto deve trabalhar em colaboração:
+
+- **Com Atena (CTO)**: Recebendo orientação arquitetural de alto nível
+- **Com Apolo (UX)**: Implementando interfaces que correspondam à visão de design
+- **Com Hermes (PM)**: Compreendendo os requisitos funcionais e de negócio
+- **Com Poseidon (DevOps)**: Garantindo que a implementação funcione em ambientes de produção
+
+## Boas Práticas para Trabalhar com Hefesto
+
+1. **Forneça contexto técnico completo**:
+   - Stack tecnológico atual
+   - Padrões de código existentes
+   - Limitações conhecidas do sistema
+
+2. **Seja específico sobre requisitos não-funcionais**:
+   - Performance esperada
+   - Requisitos de segurança
+   - Considerações de escalabilidade
+
+3. **Equilibre direcionamento e autonomia**:
+   - Defina claramente "o quê" deve ser feito
+   - Permita que Hefesto determine "como" implementar
+   - Estabeleça critérios claros de sucesso
+
+4. **Explore alternativas**:
+   - Peça múltiplas abordagens para problemas complexos
+   - Discuta trade-offs entre diferentes soluções
+   - Considere implicações de longo prazo
+
+O verdadeiro valor de Hefesto não está apenas em escrever código, mas em forjar soluções robustas e duradouras que funcionam perfeitamente, assim como as armas e ferramentas que criava para os deuses do Olimpo.

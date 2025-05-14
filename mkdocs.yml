@@ -68,6 +68,18 @@ nav:
   - Produto:
       - Visão Geral: 01-product/overview.md
       - Personas: 01-product/personas.md
+      - Agentes:
+          - Visão Geral: 01-product/agents/index.md
+          - Zeus (CEO): 01-product/agents/zeus.md
+          - Atena (CTO): 01-product/agents/athena.md
+          - Hefesto (Dev): 01-product/agents/hephaestus.md
+          - Apolo (UX): 01-product/agents/apollo.md
+          - Hermes (PM): 01-product/agents/hermes.md
+          - Outros Deuses: 01-product/agents/others.md
+      - Guias:
+          - Iniciando com Zeus: 01-product/guides/starting-with-zeus.md
+          - Design com Apolo: 01-product/guides/designing-with-apollo.md
+          - Arquitetura com Atena: 01-product/guides/architecture-with-athena.md
   - Arquitetura:
       - Visão Geral: 02-architecture/overview.md
       - ADRs:
