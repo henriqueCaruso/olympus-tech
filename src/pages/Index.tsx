@@ -37,13 +37,13 @@ export default function Index() {
           <h1 className="font-playfair font-semibold text-3xl mb-1">
             Bem-vindo, João
           </h1>
-          <p className="text-olympus-text-secondary">
+          <p className="text-muted-foreground">
             {capitalizeDate(formatDate())}
           </p>
         </div>
         
         <Button 
-          className="mt-4 md:mt-0 bg-olympus-accent text-black hover:bg-olympus-accent/90 hover:text-black"
+          className="mt-4 md:mt-0"
           onClick={() => navigate("/novo-projeto")}
         >
           <Plus size={18} className="mr-2" />
@@ -57,7 +57,7 @@ export default function Index() {
           <h2 className="font-playfair font-semibold text-xl">Seus Projetos</h2>
           <a 
             href="/meus-projetos"
-            className="text-sm text-olympus-accent hover:underline"
+            className="text-sm text-accent hover:underline"
           >
             Ver todos
           </a>
@@ -85,7 +85,7 @@ export default function Index() {
           <h2 className="font-playfair font-semibold text-xl">Templates Rápidos</h2>
           <a 
             href="/templates"
-            className="text-sm text-olympus-accent hover:underline"
+            className="text-sm text-accent hover:underline"
           >
             Ver todos
           </a>

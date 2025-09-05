@@ -14,6 +14,8 @@ export interface Project {
   category: string;
   lastModified?: string;
   teamIds: string[]; // References to agent IDs
+  tasks?: string[]; // References to task IDs
+  kanbanColumns?: string[]; // Custom kanban column configuration
 }
 
 export const projects: Project[] = [
