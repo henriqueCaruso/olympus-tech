@@ -39,9 +39,9 @@ const App = () => (
             <Route path="/*" element={
               <ProtectedRoute>
                 <SidebarProvider defaultOpen={false}>
-                  <div className="min-h-screen flex w-full">
+                  <div className="min-h-screen w-full">
                     <CollapsibleSidebar />
-                    <main className="flex-1">
+                    <main className="transition-all duration-300 ease-in-out ml-16">
                       <Routes>
                         <Route path="/" element={<Index />} />
                         <Route path="/tarefas" element={<TaskManagement />} />
