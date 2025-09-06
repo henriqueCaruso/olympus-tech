@@ -1,0 +1,2525 @@
+
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Documentação oficial do Olympus Tech - Assistência com agentes inspirados nos deuses gregos">
+      
+      
+        <meta name="author" content="Equipe Olympus Tech">
+      
+      
+      
+        <link rel="prev" href="../hephaestus/">
+      
+      
+        <link rel="next" href="../hermes/">
+      
+      
+      <link rel="icon" href="../../../assets/favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.18">
+    
+    
+      
+        <title>Apolo (UX) - Olympus Tech</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.7e37652d.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="#10152B" data-md-color-accent="#D4AF37">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#apolo-agente-ux-designer" class="md-skip">
+          Pular para conteúdo
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabeçalho">
+    <a href="../../.." title="Olympus Tech" class="md-header__button md-logo" aria-label="Olympus Tech" data-md-component="logo">
+      
+  <img src="../../../assets/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Olympus Tech
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Apolo (UX)
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Buscar" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Pesquisar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpar" aria-label="Limpar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando busca
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/seu-usuario/olympus-tech" title="Ir para repositório" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+  </div>
+  <div class="md-source__repository">
+    olympus-tech
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Abas" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Início
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../../overview/" class="md-tabs__link">
+          
+  
+  
+  Produto
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../02-architecture/overview/" class="md-tabs__link">
+          
+  
+  
+  Arquitetura
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../03-implementation/frontend/" class="md-tabs__link">
+          
+  
+  
+  Implementação
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../04-api/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  API
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../05-database/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Banco de Dados
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../06-testing/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Testes
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../07-deployment/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Deployment
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../08-status-history/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Histórico de Status
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navegação" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="Olympus Tech" class="md-nav__button md-logo" aria-label="Olympus Tech" data-md-component="logo">
+      
+  <img src="../../../assets/logo.png" alt="logo">
+
+    </a>
+    Olympus Tech
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/seu-usuario/olympus-tech" title="Ir para repositório" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+  </div>
+  <div class="md-source__repository">
+    olympus-tech
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Início
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Produto
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Produto
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Visão Geral
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../personas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Personas
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2_3" id="__nav_2_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Agentes
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2_3">
+            <span class="md-nav__icon md-icon"></span>
+            Agentes
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Visão Geral
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../zeus/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Zeus (CEO)
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../athena/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Atena (CTO)
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../hephaestus/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Hefesto (Dev)
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Apolo (UX)
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Apolo (UX)
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#mitologia-e-inspiracao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mitologia e Inspiração
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#papel-no-olympus-tech" class="md-nav__link">
+    <span class="md-ellipsis">
+      Papel no Olympus Tech
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#habilidades-e-competencias" class="md-nav__link">
+    <span class="md-ellipsis">
+      Habilidades e Competências
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Habilidades e Competências">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#design-de-interface" class="md-nav__link">
+    <span class="md-ellipsis">
+      Design de Interface
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#design-de-experiencia" class="md-nav__link">
+    <span class="md-ellipsis">
+      Design de Experiência
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#visual-design" class="md-nav__link">
+    <span class="md-ellipsis">
+      Visual Design
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pesquisa-e-validacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pesquisa e Validação
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tecnologias-de-ia-utilizadas" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tecnologias de IA Utilizadas
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tipos-de-problemas-que-resolve" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tipos de Problemas que Resolve
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#exemplos-de-interacoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Exemplos de Interações
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Exemplos de Interações">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#exemplo-1-design-de-formulario" class="md-nav__link">
+    <span class="md-ellipsis">
+      Exemplo 1: Design de Formulário
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#exemplo-2-revisao-de-design-system" class="md-nav__link">
+    <span class="md-ellipsis">
+      Exemplo 2: Revisão de Design System
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-ferramentas-e-documentacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Ferramentas e Documentação
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#governanca-e-evolucao" class="md-nav__link">
+    <span class="md-ellipsis">
+      GOVERNANÇA E EVOLUÇÃO
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="GOVERNANÇA E EVOLUÇÃO">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-processos-de-manutencao" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Processos de Manutenção
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-medicao-de-sucesso" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Medição de Sucesso
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#consideracoes-especificas-para-saas-financeiro" class="md-nav__link">
+    <span class="md-ellipsis">
+      CONSIDERAÇÕES ESPECÍFICAS PARA SAAS FINANCEIRO
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="CONSIDERAÇÕES ESPECÍFICAS PARA SAAS FINANCEIRO">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-seguranca-percebida" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Segurança Percebida
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-precisao-numerica" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Precisão Numérica
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-acessibilidade-financeira" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Acessibilidade Financeira
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#proximos-passos-recomendados" class="md-nav__link">
+    <span class="md-ellipsis">
+      PRÓXIMOS PASSOS RECOMENDADOS
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#exemplos-de-implementacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      EXEMPLOS DE IMPLEMENTAÇÃO
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#limitacoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Limitações
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../hermes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Hermes (PM)
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../others/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Outros Deuses
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_4" id="__nav_2_4_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Guias
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_4">
+            <span class="md-nav__icon md-icon"></span>
+            Guias
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../guides/starting-with-zeus/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Iniciando com Zeus
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../guides/designing-with-apollo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Design com Apolo
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../guides/architecture-with-athena/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Arquitetura com Atena
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Arquitetura
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Arquitetura
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../02-architecture/overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Visão Geral
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_2" id="__nav_3_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    ADRs
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            ADRs
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../02-architecture/adr/ADR-0001/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    ADR-0001 - Design System
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Implementação
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Implementação
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../03-implementation/frontend/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Frontend
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../03-implementation/backend/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Backend
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../04-api/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    API
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../05-database/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Banco de Dados
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../06-testing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Testes
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../07-deployment/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Deployment
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../08-status-history/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Histórico de Status
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#mitologia-e-inspiracao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mitologia e Inspiração
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#papel-no-olympus-tech" class="md-nav__link">
+    <span class="md-ellipsis">
+      Papel no Olympus Tech
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#habilidades-e-competencias" class="md-nav__link">
+    <span class="md-ellipsis">
+      Habilidades e Competências
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Habilidades e Competências">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#design-de-interface" class="md-nav__link">
+    <span class="md-ellipsis">
+      Design de Interface
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#design-de-experiencia" class="md-nav__link">
+    <span class="md-ellipsis">
+      Design de Experiência
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#visual-design" class="md-nav__link">
+    <span class="md-ellipsis">
+      Visual Design
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pesquisa-e-validacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pesquisa e Validação
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tecnologias-de-ia-utilizadas" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tecnologias de IA Utilizadas
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tipos-de-problemas-que-resolve" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tipos de Problemas que Resolve
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#exemplos-de-interacoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Exemplos de Interações
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Exemplos de Interações">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#exemplo-1-design-de-formulario" class="md-nav__link">
+    <span class="md-ellipsis">
+      Exemplo 1: Design de Formulário
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#exemplo-2-revisao-de-design-system" class="md-nav__link">
+    <span class="md-ellipsis">
+      Exemplo 2: Revisão de Design System
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-ferramentas-e-documentacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Ferramentas e Documentação
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#governanca-e-evolucao" class="md-nav__link">
+    <span class="md-ellipsis">
+      GOVERNANÇA E EVOLUÇÃO
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="GOVERNANÇA E EVOLUÇÃO">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-processos-de-manutencao" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Processos de Manutenção
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-medicao-de-sucesso" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Medição de Sucesso
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#consideracoes-especificas-para-saas-financeiro" class="md-nav__link">
+    <span class="md-ellipsis">
+      CONSIDERAÇÕES ESPECÍFICAS PARA SAAS FINANCEIRO
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="CONSIDERAÇÕES ESPECÍFICAS PARA SAAS FINANCEIRO">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-seguranca-percebida" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Segurança Percebida
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-precisao-numerica" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Precisão Numérica
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-acessibilidade-financeira" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Acessibilidade Financeira
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#proximos-passos-recomendados" class="md-nav__link">
+    <span class="md-ellipsis">
+      PRÓXIMOS PASSOS RECOMENDADOS
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#exemplos-de-implementacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      EXEMPLOS DE IMPLEMENTAÇÃO
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#limitacoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Limitações
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="apolo-agente-ux-designer">Apolo - Agente UX Designer<a class="headerlink" href="#apolo-agente-ux-designer" title="Permanent link">&para;</a></h1>
+<p><img alt="Apolo" src="../../assets/apollo-agent.png" /></p>
+<blockquote>
+<p>"Design não é apenas como se parece, mas como funciona. A verdadeira beleza surge quando forma e função dançam em perfeita harmonia."</p>
+</blockquote>
+<h2 id="mitologia-e-inspiracao">Mitologia e Inspiração<a class="headerlink" href="#mitologia-e-inspiracao" title="Permanent link">&para;</a></h2>
+<p>Na mitologia grega, Apolo é o deus da luz, música, arte e conhecimento. Filho de Zeus e Leto, é frequentemente representado como a personificação da perfeição estética, juventude e luz solar. Além de sua beleza, Apolo traz claridade, ordem e harmonia onde quer que vá, iluminando o caminho entre o caos e a ordem.</p>
+<p>No Olympus Tech, o Agente Apolo incorpora esses ideais, trazendo clareza, beleza e harmonia para as interfaces e experiências de usuário. Em colaboração com Afrodite (que adiciona aspectos de beleza e desejo emocional), Apolo cria designs que não apenas atraem visualmente, mas também comunicam claramente e funcionam com elegância.</p>
+<h2 id="papel-no-olympus-tech">Papel no Olympus Tech<a class="headerlink" href="#papel-no-olympus-tech" title="Permanent link">&para;</a></h2>
+<p>Como UX Designer virtual, o Agente Apolo:</p>
+<ul>
+<li>Cria interfaces intuitivas e visualmente harmoniosas</li>
+<li>Define fluxos de usuário simples e eficientes</li>
+<li>Estabelece hierarquias visuais que facilitam a compreensão</li>
+<li>Equilibra estética e funcionalidade</li>
+<li>Mantém consistência visual e comportamental</li>
+<li>Traduz necessidades em experiências tangíveis</li>
+</ul>
+<h2 id="habilidades-e-competencias">Habilidades e Competências<a class="headerlink" href="#habilidades-e-competencias" title="Permanent link">&para;</a></h2>
+<h3 id="design-de-interface">Design de Interface<a class="headerlink" href="#design-de-interface" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Criação de layouts equilibrados e hierárquicos</li>
+<li>Sistemas de design consistentes e escaláveis</li>
+<li>Tipografia clara e legível</li>
+<li>Paletas de cores harmoniosas e significativas</li>
+<li>Componentes interativos intuitivos</li>
+</ul>
+<h3 id="design-de-experiencia">Design de Experiência<a class="headerlink" href="#design-de-experiencia" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Fluxos de usuário lógicos e eficientes</li>
+<li>Arquitetura de informação compreensível</li>
+<li>Redução de carga cognitiva</li>
+<li>Princípios de acessibilidade</li>
+<li>Design orientado por objetivos do usuário</li>
+</ul>
+<h3 id="visual-design">Visual Design<a class="headerlink" href="#visual-design" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Estética moderna e apropriada ao contexto</li>
+<li>Consistência visual em todo o sistema</li>
+<li>Uso adequado de espaço, ritmo e proporção</li>
+<li>Detalhes visuais que aumentam o engajamento</li>
+<li>Elementos de marca e identidade visual</li>
+</ul>
+<h3 id="pesquisa-e-validacao">Pesquisa e Validação<a class="headerlink" href="#pesquisa-e-validacao" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Princípios de usabilidade</li>
+<li>Testes com usuários</li>
+<li>Iteração baseada em feedback</li>
+<li>Análise de padrões de interação</li>
+<li>Métricas de design e experiência</li>
+</ul>
+<h2 id="tecnologias-de-ia-utilizadas">Tecnologias de IA Utilizadas<a class="headerlink" href="#tecnologias-de-ia-utilizadas" title="Permanent link">&para;</a></h2>
+<p>O Agente Apolo é alimentado por:</p>
+<ul>
+<li><strong>Modelos generativos visuais</strong>: Para criação e manipulação de designs</li>
+<li><strong>Redes neurais de reconhecimento visual</strong>: Para análise e avaliação de designs existentes</li>
+<li><strong>Sistemas de entendimento de padrões de interação</strong>: Para recomendação de fluxos otimizados</li>
+<li><strong>Algoritmos de composição visual</strong>: Para equilíbrio e harmonia em layouts</li>
+<li><strong>Modelos de processamento de linguagem</strong>: Para compreender e aplicar princípios de UX/UI</li>
+</ul>
+<h2 id="tipos-de-problemas-que-resolve">Tipos de Problemas que Resolve<a class="headerlink" href="#tipos-de-problemas-que-resolve" title="Permanent link">&para;</a></h2>
+<p>Apolo é mais efetivo quando consultado para:</p>
+<ol>
+<li><strong>Design de Interfaces</strong></li>
+<li>Wireframes e layouts</li>
+<li>Sistemas de componentes</li>
+<li>Hierarquia visual</li>
+<li>Elementos interativos</li>
+<li>
+<p>Adaptação responsiva</p>
+</li>
+<li>
+<p><strong>Fluxos de Usuário</strong></p>
+</li>
+<li>Mapeamento de jornadas</li>
+<li>Simplificação de processos</li>
+<li>Eliminação de fricção</li>
+<li>Melhorias de usabilidade</li>
+<li>
+<p>Otimização de conversão</p>
+</li>
+<li>
+<p><strong>Sistemas de Design</strong></p>
+</li>
+<li>Definição de princípios visuais</li>
+<li>Criação de bibliotecas de componentes</li>
+<li>Guias de estilo e padronização</li>
+<li>Tokens de design</li>
+<li>
+<p>Documentação de padrões</p>
+</li>
+<li>
+<p><strong>Avaliação e Refinamento</strong></p>
+</li>
+<li>Análise de interfaces existentes</li>
+<li>Identificação de problemas de usabilidade</li>
+<li>Recomendações de melhorias</li>
+<li>Alinhamento com tendências e melhores práticas</li>
+<li>Validação de soluções propostas</li>
+</ol>
+<h2 id="exemplos-de-interacoes">Exemplos de Interações<a class="headerlink" href="#exemplos-de-interacoes" title="Permanent link">&para;</a></h2>
+<h3 id="exemplo-1-design-de-formulario">Exemplo 1: Design de Formulário<a class="headerlink" href="#exemplo-1-design-de-formulario" title="Permanent link">&para;</a></h3>
+<p><strong>Solicitação do usuário:</strong>
+<div class="highlight"><pre><span></span><code>Precisamos melhorar o design do nosso formulário de cadastro. Atualmente, é muito longo e 
+os usuários estão abandonando antes de completar. Como podemos torná-lo mais amigável?
+</code></pre></div></p>
+<p><strong>Resposta de Apolo:</strong>
+<div class="highlight"><pre><span></span><code># Redesign de Formulário de Cadastro: Estratégia Anti-Abandono
+
+Após analisar o problema de abandono em formulários de cadastro, apresento uma abordagem completa para otimizar a experiência e aumentar a taxa de conclusão.
+
+## DIAGNÓSTICO DE PROBLEMAS COMUNS
+
+O abandono de formulários geralmente ocorre por estas razões principais:
+1. **Extensão excessiva**: Muitos campos criam percepção de esforço alto
+2. **Complexidade visível**: Visualizar todos os campos de uma vez intimida o usuário
+3. **Feedback insuficiente**: Falta de orientação clara durante o preenchimento
+4. **Contexto ausente**: Usuário não entende por que certas informações são necessárias
+5. **Barreiras de acessibilidade**: Dificuldades para certos grupos de usuários
+6. **Fricção em dispositivos móveis**: Desafios específicos em telas pequenas
+
+## PRINCÍPIOS PARA O REDESIGN
+
+### 1. Progressão Gradual
+Dividir o formulário em etapas lógicas e gerenciáveis, apresentando apenas o necessário em cada momento.
+
+### 2. Contextualização de Valor
+Esclarecer por que cada informação é solicitada e qual benefício traz ao usuário.
+
+### 3. Redução de Carga Cognitiva
+Simplificar decisões, usar valores padrão inteligentes e minimizar campos opcionais.
+
+### 4. Feedback Imediato
+Fornecer validação em tempo real e orientação clara sobre erros.
+
+### 5. Persistência e Recuperação
+Permitir salvar progresso e retomar facilmente o cadastro.
+
+## SOLUÇÃO PROPOSTA
+
+Baseado nesses princípios, proponho as seguintes melhorias:
+
+### A. Estrutura do Formulário
+
+**1. Divisão em Etapas Progressivas**
+- **Etapa 1**: Informações essenciais (email + senha)
+- **Etapa 2**: Detalhes pessoais básicos (nome, localização)
+- **Etapa 3**: Preferências e personalização
+- **Etapa 4**: Detalhes opcionais (interesses, configurações)
+
+**2. Indicador de Progresso Claro**
+- Barra de progresso visual mostrando total de etapas
+- &quot;X de Y etapas&quot; como referência numérica
+- Estimativa de tempo restante (&quot;aprox. 2 minutos&quot;)
+
+**3. Temática de &quot;Jornada&quot;**
+- Enquadrar o cadastro como uma jornada de configuração
+- Celebrar cada etapa concluída com micro-animações
+- Mensagens motivacionais entre etapas
+
+### B. Otimizações de Interface
+
+**1. Hierarquia Visual Clara**
+</code></pre></div>
+┌─────────────────────────────────────────────┐
+│ CRIE SUA CONTA                     1 de 3   │
+├─────────────────────────────────────────────┤
+│                                             │
+│  Email                                      │
+│  ┌─────────────────────────────────────┐    │
+│  │ exemplo@email.com                   │    │
+│  └─────────────────────────────────────┘    │
+│                                             │
+│  Senha                                      │
+│  ┌─────────────────────────────────────┐    │
+│  │ ••••••••••••                        │    │
+│  └─────────────────────────────────────┘    │
+│  ✓ 8+ caracteres  ✓ Número  ✗ Maiúscula     │
+│                                             │
+│  ┌───────────────────────┐ ┌───────────────┐│
+│  │ Voltar                │ │ Continuar  → ││
+│  └───────────────────────┘ └───────────────┘│
+└─────────────────────────────────────────────┘
+<div class="highlight"><pre><span></span><code>**2. Campos Otimizados**
+- Labels posicionados acima dos inputs (melhor para escaneamento)
+- Espaçamento generoso entre campos (reduz erro de toque)
+- Tamanho de fonte adequado (min. 16px para evitar zoom em mobile)
+- Estados visualmente distintos (foco, erro, preenchido, desabilitado)
+
+**3. Facilitadores de Input**
+- Máscaras intuitivas para formatos específicos (telefone, CPF)
+- Auto-formatação durante digitação
+- Autocomplete apropriado para cada campo
+- Detectar e sugerir correções para erros comuns (ex: domínios de email)
+
+### C. Feedback e Orientação
+
+**1. Validação em Três Momentos**
+- **Instantânea**: Durante digitação para erros simples
+- **No blur**: Ao sair do campo para validações complexas
+- **Na submissão**: Verificação final antes de avançar
+
+**2. Mensagens de Erro Construtivas**
+- Posicionadas adjacentes ao campo problemático
+- Escritas em tom positivo e orientador
+- Específicas sobre o problema e como resolvê-lo
+- Uso de cor (vermelho) como suporte, não como único indicador
+
+**3. Indicadores de Força/Completude**
+- Medidor visual de força de senha
+- Checklists para requisitos complexos
+- Indicadores de campos obrigatórios vs. opcionais
+
+### D. Otimizações Técnicas
+
+**1. Persistência**
+- Salvar progresso automaticamente (localStorage)
+- Opção &quot;continuar mais tarde&quot; com link por email
+- Recuperação inteligente da última sessão
+
+**2. Performance**
+- Carregamento otimizado entre etapas
+- Pre-fetch da próxima etapa durante preenchimento
+- Submissão assíncrona para evitar espera
+
+**3. Acessibilidade**
+- Estrutura semântica com landmarks apropriados
+- Labels explicitamente associados a inputs
+- Suporte completo para navegação por teclado
+- Mensagens de erro anunciadas por screen readers
+
+### E. Abordagens Alternativas
+
+**1. Social Sign-up**
+- Oferecer cadastro via Google/Apple/Facebook como opção primária
+- Posicionar no topo como &quot;caminho rápido&quot;
+- Esclarecer quais dados serão importados
+
+**2. Cadastro Progressivo**
+- Iniciar com apenas email/senha
+- Coletar mais informações durante uso, em momentos contextuais
+- Incentivar completude do perfil com gamificação
+
+**3. Cadastro sem Senha**
+- Opção de login passwordless (magic link por email)
+- Reduz fricção inicial significativamente
+- Ainda oferecer senha como opção para usuários que preferem
+
+## IMPLEMENTAÇÃO E MEDIÇÃO
+
+### Estágios de Implementação
+1. Aplicar divisão em etapas e simplificação visual
+2. Adicionar feedback instantâneo e validação
+3. Implementar persistência e recuperação
+4. Testar com usuários e iterações finais
+
+### Métricas de Sucesso
+- **Taxa de conclusão**: % de usuários que completam o cadastro
+- **Tempo para conclusão**: Duração média para completar o fluxo
+- **Taxa de erro**: % de submissões com erros
+- **Abandono por etapa**: Identificar pontos problemáticos específicos
+
+## EXEMPLOS VISUAIS
+
+### Antes vs. Depois
+</code></pre></div>
+ANTES                          DEPOIS
+┌────────────────┐            ┌────────────────┐
+│ CADASTRO       │            │ CRIE SUA CONTA │
+│                │            │     (&#8531;)      │
+│ Nome completo  │            │                │
+│ ┌──────────┐   │            │ Primeiro, seu  │
+│ └──────────┘   │            │ email para     │
+│                │            │ contato:       │
+│ Email          │            │                │
+│ ┌──────────┐   │            │ ┌──────────┐   │
+│ └──────────┘   │            │ └──────────┘   │
+│                │            │                │
+│ CPF            │            │ ┌──────────┐   │
+│ ┌──────────┐   │            │ │Continuar ▶│  │
+│ └──────────┘   │            │ └──────────┘   │
+│                │            │                │
+│     ...        │            │ Já tem conta?  │
+│  +10 campos    │            │ Entre aqui     │
+│     ...        │            └────────────────┘
+│                │
+│ ┌──────────┐   │
+│ │ Cadastrar│   │
+│ └──────────┘   │
+└────────────────┘
+<div class="highlight"><pre><span></span><code>## CONCLUSÃO E RECOMENDAÇÕES
+
+O redesenho proposto transforma o formulário de cadastro de uma barreira em uma experiência fluida e agradável, aplicando princípios modernos de UX e padrões comprovados de redução de abandono.
+
+**Principais recomendações:**
+1. Priorize a divisão em etapas progressivas
+2. Implemente feedback instantâneo e validação contextual
+3. Ofereça caminhos alternativos (social login)
+4. Teste com usuários reais antes da implementação final
+5. Monitore métricas de conclusão e abandono após o lançamento
+
+Este redesenho não apenas aumentará as taxas de conversão, mas também estabelecerá uma primeira impressão positiva que se estenderá à percepção geral do produto.
+
+Gostaria de explorar algum aspecto específico desta proposta em mais detalhes?
+</code></pre></div></p>
+<h3 id="exemplo-2-revisao-de-design-system">Exemplo 2: Revisão de Design System<a class="headerlink" href="#exemplo-2-revisao-de-design-system" title="Permanent link">&para;</a></h3>
+<p><strong>Solicitação do usuário:</strong>
+<div class="highlight"><pre><span></span><code>Estamos criando um sistema de design para nosso produto SaaS de gestão financeira. 
+O que devemos considerar para garantir que seja consistente e escalável?
+</code></pre></div></p>
+<p><strong>Resposta de Apolo:</strong>
+<div class="highlight"><pre><span></span><code># Sistema de Design para Produto SaaS de Gestão Financeira
+
+Um sistema de design efetivo para um produto SaaS financeiro deve equilibrar clareza, confiabilidade e eficiência, considerando tanto aspectos visuais quanto princípios funcionais específicos do domínio.
+
+## FUNDAMENTOS DO SISTEMA
+
+### 1. Princípios Norteadores
+
+Proponho estes cinco princípios fundamentais que devem guiar todas as decisões de design:
+
+- **Precisão**: Informações financeiras exigem exatidão e clareza absoluta
+- **Confiança**: O design deve transmitir segurança e credibilidade
+- **Eficiência**: Usuários financeiros valorizam otimização de tempo e esforço
+- **Transparência**: Clareza sobre como os dados são processados e apresentados
+- **Acessibilidade**: Inclusão de todos os usuários, independente de limitações
+
+### 2. Identidade Visual Base
+
+A base do sistema deve refletir os valores da marca enquanto suporta funcionalidade financeira:
+
+#### Cores
+- **Paleta Primária**:
+  - Cor principal: Azul médio (#1E5284) - transmite confiabilidade e profissionalismo
+  - Acentos: Verde (#3D9B54) para positivo, Vermelho (#D64045) para negativo/alertas
+  - Neutros: Cinzas em 8 níveis, de quase branco (#F8F9FA) a quase preto (#212529)
+
+- **Paleta Estendida**:
+  - Secundárias: Azul claro (#6CAED9), Azul escuro (#0A2647)
+  - Terciárias: Cores de categorias financeiras diferenciáveis
+
+- **Uso Funcional**:
+  - Estados: Sucesso, Erro, Alerta, Informação
+  - Variações de intensidade para cada função (90%, 60%, 30%, 10%)
+
+#### Tipografia
+- **Família Principal**: Sans-serif moderna com boa legibilidade de números
+  - Inter ou SF Pro para interfaces web
+  - Variações: Regular (400), Medium (500), Semi-bold (600)
+
+- **Hierarquia Tipográfica**:
+  - Display: 28-32px (títulos principais)
+  - Título: 20-24px (seções)
+  - Subtítulo: 16-18px (subsessões)
+  - Corpo: 14-16px (conteúdo principal)
+  - Auxiliar: 12-13px (anotações, legendas)
+  - Dados numéricos: Monospace ou tabulares para alinhamento de valores
+
+#### Iconografia
+- **Estilo**: Linhas consistentes (2px), cantos levemente arredondados
+- **Sistema Semântico**:
+  - Ações financeiras (transferir, pagar, receber, etc.)
+  - Categorias de despesas (alimentação, transporte, etc.)
+  - Instrumentos financeiros (cartão, poupança, investimentos)
+  - Navegação e sistema (menu, configurações, ajuda)
+
+#### Espaçamento e Grid
+- **Sistema de Espaços**: Escala baseada em múltiplos de 4px ou 8px
+- **Grid**: Sistema flexível de 12 colunas
+- **Breakpoints**: Mobile (320-599px), Tablet (600-1023px), Desktop (1024px+)
+
+## COMPONENTES ESSENCIAIS
+
+### 1. Componentes de Visualização Financeira
+
+**Cartões de Sumário Financeiro**
+</code></pre></div>
+┌─────────────────────────────────┐
+│ SALDO ATUAL                     │
+│ R$ 3.240,58                     │
+│                           +2.5% │
+└─────────────────────────────────┘
+<div class="highlight"><pre><span></span><code>- Título claro em peso medium
+- Valor em destaque (larger, semi-bold)
+- Indicador de tendência (cor + ícone)
+- Padding generoso (24px)
+- Opções de largura (full, half, third)
+
+**Gráficos e Visualizações**
+- Paleta otimizada para daltonismo
+- Legenda clara e posicionada consistentemente
+- Tooltips informativos em hover
+- Estados de zero-data e carregamento
+- Consistência na representação de períodos
+
+**Tabelas Financeiras**
+- Alinhamento: Textos à esquerda, números à direita
+- Formatação consistente de valores monetários
+- Cabeçalhos fixos em tabelas longas
+- Estados de sort, filter e seleção
+- Paginação e controles de densidade
+
+### 2. Componentes de Input Financeiro
+
+**Inputs Numéricos**
+- Máscaras automáticas para valores monetários
+- Teclados contextuais em dispositivos móveis
+- Validação em tempo real
+- Formatação localizada (R$, %)
+- Estados claros (focus, error, disabled)
+
+**Seletores de Data**
+- Otimizados para períodos financeiros
+- Atalhos para datas relevantes (mês atual, trimestre)
+- Seleção de range para relatórios
+- Consistência em formato de exibição
+
+**Formulários Financeiros**
+- Agrupamento lógico de campos relacionados
+- Validação contextual financeira
+- Autosave e recuperação de dados
+- Progresso claro em formulários longos
+
+### 3. Componentes de Navegação
+
+**Dashboard Navigation**
+- Acesso rápido a áreas frequentes
+- Visibilidade clara da localização atual
+- Hierarquia de informações financeiras
+- Adaptação responsiva eficiente
+
+**Filtros e Controles**
+- Consistência em posicionamento
+- Estados claros de aplicação
+- Remoção fácil e reset
+- Persistência de preferências do usuário
+
+## PADRÕES DE INTERAÇÃO
+
+### 1. Padrões Financeiros Específicos
+
+**Entrada de Valores**
+- Formatação automática durante digitação
+- Uso de sliders para ajustes em ranges
+- Opções rápidas para valores comuns
+- Calculadoras contextuais quando relevante
+
+**Confirmação de Transações**
+- Checklist visual de verificação
+- Resumo claro antes da confirmação
+- Linguagem explícita em botões de ação
+- Feedback imediato após conclusão
+
+**Visualização de Histórico**
+- Timeline consistente
+- Filtros contextuais relevantes
+- Agrupamento lógico (dia, semana, mês)
+- Busca e filtragem eficientes
+
+### 2. Estados e Feedback
+
+**Sistema de Notificações**
+- Hierarquia clara de urgência/importância
+- Estados: Informativo, Sucesso, Alerta, Erro
+- Posicionamento consistente na interface
+- Linguagem financeira precisa e clara
+
+**Loadings e Estados Vazios**
+- Skeletons para dados financeiros
+- Mensagens contextuais em estados vazios
+- Tempos de loading apropriados para operações financeiras
+- Indicação clara de atualização de dados
+
+## IMPLEMENTAÇÃO TÉCNICA
+
+### 1. Estrutura do Sistema
+
+**Arquitetura Atômica**
+- Tokens: Variáveis primitivas (cores, espaços, etc.)
+- Átomos: Componentes básicos (botões, campos)
+- Moléculas: Combinações funcionais (formulários de pagamento)
+- Organismos: Seções completas (dashboard de contas)
+- Templates: Estruturas de página
+- Páginas: Implementações específicas
+
+**Sistema de Tokens**
+```scss
+// Exemplo de estrutura de tokens
+$color-primary: #1E5284;
+$color-positive: #3D9B54;
+$color-negative: #D64045;
+
+$spacing-xs: 4px;
+$spacing-sm: 8px;
+$spacing-md: 16px;
+$spacing-lg: 24px;
+$spacing-xl: 32px;
+
+$font-family-base: &#39;Inter&#39;, -apple-system, sans-serif;
+$font-family-mono: &#39;Roboto Mono&#39;, monospace;
+
+$font-size-xs: 12px;
+$font-size-sm: 14px;
+$font-size-md: 16px;
+$font-size-lg: 20px;
+$font-size-xl: 24px;
+$font-size-xxl: 32px;
+
+$border-radius-sm: 4px;
+$border-radius-md: 8px;
+$border-radius-lg: 12px;
+</code></pre></div></p>
+<h3 id="2-ferramentas-e-documentacao">2. Ferramentas e Documentação<a class="headerlink" href="#2-ferramentas-e-documentacao" title="Permanent link">&para;</a></h3>
+<p><strong>Documentação Viva</strong>
+- Storybook para componentes interativos
+- Guia de uso para cada componente
+- Exemplos contextuais financeiros
+- Seção de anti-padrões evitando usos incorretos</p>
+<p><strong>Recursos para Desenvolvimento</strong>
+- Protótipos funcionais em Figma
+- Componentes React com TypeScript
+- Testes para garantir consistência
+- CI/CD para atualizações do sistema</p>
+<h2 id="governanca-e-evolucao">GOVERNANÇA E EVOLUÇÃO<a class="headerlink" href="#governanca-e-evolucao" title="Permanent link">&para;</a></h2>
+<h3 id="1-processos-de-manutencao">1. Processos de Manutenção<a class="headerlink" href="#1-processos-de-manutencao" title="Permanent link">&para;</a></h3>
+<p><strong>Ciclo de Atualizações</strong>
+- Atualizações menores: Ajustes, correções (mensal)
+- Atualizações maiores: Novos componentes, patterns (trimestral)
+- Versionamento semântico claro</p>
+<p><strong>Processo de Contribuição</strong>
+- Canal para solicitações de novos componentes
+- Template de documentação para novas propostas
+- Revisão por designer e desenvolvedor
+- Testes de usabilidade para mudanças significativas</p>
+<h3 id="2-medicao-de-sucesso">2. Medição de Sucesso<a class="headerlink" href="#2-medicao-de-sucesso" title="Permanent link">&para;</a></h3>
+<p><strong>Métricas Quantitativas</strong>
+- Consistência: % de uso dos componentes oficiais vs custom
+- Eficiência: Tempo para concluir tarefas financeiras principais
+- Confiança: Redução em erros de entrada de dados financeiros
+- Adoção: % de equipes utilizando o sistema</p>
+<p><strong>Feedback Qualitativo</strong>
+- Entrevistas com designers e desenvolvedores
+- Testes de usabilidade focados em tarefas financeiras
+- Análise heurística periódica do sistema</p>
+<h2 id="consideracoes-especificas-para-saas-financeiro">CONSIDERAÇÕES ESPECÍFICAS PARA SAAS FINANCEIRO<a class="headerlink" href="#consideracoes-especificas-para-saas-financeiro" title="Permanent link">&para;</a></h2>
+<h3 id="1-seguranca-percebida">1. Segurança Percebida<a class="headerlink" href="#1-seguranca-percebida" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Design que comunica segurança e confiabilidade</li>
+<li>Feedback explícito em ações sensíveis</li>
+<li>Níveis claros de confirmaçãõ para operações financeiras</li>
+<li>Elementos visuais que reforçam segurança (cadeados, escudos)</li>
+</ul>
+<h3 id="2-precisao-numerica">2. Precisão Numérica<a class="headerlink" href="#2-precisao-numerica" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Controles que previnem erros de entrada</li>
+<li>Apresentação consistente de valores decimais</li>
+<li>Formatação adequada para diferentes tipos de dados financeiros</li>
+<li>Diferenciação clara entre valores estimados vs reais</li>
+</ul>
+<h3 id="3-acessibilidade-financeira">3. Acessibilidade Financeira<a class="headerlink" href="#3-acessibilidade-financeira" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Alto contraste para dados críticos</li>
+<li>Labels explícitos (não apenas cores) para indicar status</li>
+<li>Navegação por teclado otimizada para operações frequentes</li>
+<li>Suporte a zoom sem quebra de layout para análise detalhada</li>
+</ul>
+<h2 id="proximos-passos-recomendados">PRÓXIMOS PASSOS RECOMENDADOS<a class="headerlink" href="#proximos-passos-recomendados" title="Permanent link">&para;</a></h2>
+<ol>
+<li><strong>Auditoria Visual</strong>: Inventário dos componentes e padrões existentes</li>
+<li><strong>Workshop de Princípios</strong>: Definir/refinar princípios com equipe</li>
+<li><strong>MVP do Sistema</strong>: Desenvolver componentes core e documentação inicial</li>
+<li><strong>Piloto</strong>: Aplicar em uma seção limitada do produto</li>
+<li><strong>Expansão Gradual</strong>: Implementar em todo o produto com feedback iterativo</li>
+<li><strong>Treinamento</strong>: Capacitar equipes de design e desenvolvimento</li>
+</ol>
+<h2 id="exemplos-de-implementacao">EXEMPLOS DE IMPLEMENTAÇÃO<a class="headerlink" href="#exemplos-de-implementacao" title="Permanent link">&para;</a></h2>
+<p><strong>Dashboard Financeiro com Sistema Aplicado</strong>
+<div class="highlight"><pre><span></span><code>┌─────────────────────────────────────────────────┐
+│ Visão Geral                               Filtro ▼│
+├─────────┬─────────┬─────────┬─────────┬─────────┤
+│ SALDO   │ ENTRADAS│ SAÍDAS  │ PREVISTO│ INVEST. │
+│ R$3.524 │ R$5.120 │ R$1.596 │ R$2.300 │ R$8.350 │
+│ +2.5%   │ +15%    │ −5%     │ −3%     │ +4.2%   │
+├─────────┴─────────┴─────────┴─────────┴─────────┤
+│                                                 │
+│ Fluxo de Caixa                                  │
+│ ┌─────────────────────────────────────────────┐ │
+│ │                                             │ │
+│ │      [Gráfico com sistema visual aplicado]  │ │
+│ │                                             │ │
+│ └─────────────────────────────────────────────┘ │
+│                                                 │
+│ Últimas Transações              Ver todas →     │
+│ ┌─────┬────────────────┬──────────┬──────────┐ │
+│ │     │ Descrição      │ Categoria │ Valor    │ │
+│ ├─────┼────────────────┼──────────┼──────────┤ │
+│ │ 🏪 │ Supermercado    │ Alimentação│ R$152,30 │ │
+│ │ 🚗 │ Combustível     │ Transporte│ R$85,00  │ │
+│ │ 📱 │ Internet        │ Contas    │ R$99,90  │ │
+│ │ 💼 │ Salário         │ Receita   │ R$3.540,00│ │
+│ └─────┴────────────────┴──────────┴──────────┘ │
+│                                                 │
+└─────────────────────────────────────────────────┘
+</code></pre></div></p>
+<p>Gostaria que eu detalhasse algum aspecto específico do sistema de design proposto?
+<div class="highlight"><pre><span></span><code>## Colaboração com Afrodite
+
+No Olympus Tech, Apolo frequentemente trabalha em conjunto com Afrodite, deusa da beleza e do desejo. Enquanto Apolo traz clareza, funcionalidade e harmonia estrutural ao design, Afrodite contribui com:
+
+- Apelo estético e emocional
+- Elementos de deleite e surpresa
+- Tratamento visual sofisticado
+- Aspectos de engajamento e desejo
+
+Esta colaboração representa o equilíbrio entre o racional e o emocional no design, criando interfaces que não apenas funcionam bem, mas também provocam resposta emocional positiva.
+
+## Colaboração com Outros Agentes
+
+Apolo trabalha em sinergia com outros agentes do Olympus Tech:
+
+- **Com Hermes (PM)**: Para compreender profundamente requisitos e objetivos do usuário
+- **Com Atena (CTO)**: Para garantir viabilidade técnica das soluções de design
+- **Com Hefesto (Dev)**: Para implementação precisa e eficiente das interfaces
+- **Com Zeus (CEO)**: Para alinhamento do design com a visão estratégica
+
+## Integrando Apolo no Fluxo de Trabalho
+
+Para maximizar o valor de Apolo, considere integrá-lo em momentos-chave:
+
+![Ciclo com Apolo](../diagrams/apollo-workflow.png)
+
+1. **Fase de Definição**: Para explorar conceitos e abordagens de design
+2. **Criação de Protótipos**: Para materializar ideias em wireframes e mockups
+3. **Refinamento de UI**: Para polir detalhes visuais e interações
+4. **Avaliação**: Para análise crítica de designs existentes
+5. **Sistemas de Design**: Para estabelecer padrões consistentes
+
+## Dicas para Interação Efetiva
+
+Para obter os melhores resultados do Agente Apolo:
+
+### Formate suas solicitações com:
+
+- **Contexto do produto**: Propósito, audiência e objetivos
+- **Desafios específicos**: Problemas concretos a resolver
+- **Restrições**: Limitações técnicas, de marca ou de negócio
+- **Exemplos de referência**: Designs admirados ou inspirações
+- **Nível de fidelidade desejado**: Wireframes conceituais ou designs detalhados
+
+### Exemplo de solicitação eficiente:
+</code></pre></div>
+Apolo, precisamos redesenhar a página de dashboard para nossa plataforma de análise de dados.</p>
+<p>Contexto:
+- Usuários: Analistas de marketing (técnicos, mas não programadores)
+- Problema: Dashboard atual é denso e difícil de interpretar rapidamente
+- Objetivo: Criar visualização mais clara das métricas principais
+- Restrições: Deve seguir nossa identidade visual (azul/cinza) e ser responsivo
+- Referências: Admiramos a clareza do Tableau e a hierarquia visual do Google Analytics</p>
+<p>Por favor, sugira um redesign com foco na hierarquia de informações e escaneabilidade.
+```</p>
+<h2 id="limitacoes">Limitações<a class="headerlink" href="#limitacoes" title="Permanent link">&para;</a></h2>
+<p>O Agente Apolo possui algumas limitações:</p>
+<ul>
+<li>Não cria designs visuais literais (imagens, mockups finalizados)</li>
+<li>Depende de descrições textuais para entender contextos visuais</li>
+<li>Não tem acesso a dados específicos de usuários do seu produto</li>
+<li>Não substitui testes de usabilidade com usuários reais</li>
+<li>Seu conhecimento sobre tendências de design tem um limite temporal</li>
+</ul>
+<hr />
+<div class="deity-quote">
+"O design perfeito não é alcançado quando não há mais nada a adicionar, mas quando não há mais nada a se retirar."
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Voltar para o topo
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        
+<div class="md-social">
+  
+    
+    
+    
+    
+    <a href="https://github.com/seu-usuario/olympus-tech" target="_blank" rel="noopener" title="Olympus Tech no GitHub" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.sections", "navigation.tracking", "navigation.tabs", "navigation.top", "search.suggest", "search.highlight"], "search": "../../../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.result.more.one": "mais 1 nesta p\u00e1gina", "search.result.more.other": "# mais nesta p\u00e1gina", "search.result.none": "Nenhum documento encontrado", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version": "Selecione a vers\u00e3o"}, "version": null}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.92b07e13.min.js"></script>
+      
+    
+  </body>
+</html>
