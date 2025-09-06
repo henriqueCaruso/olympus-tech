@@ -10,9 +10,11 @@ import {
   HelpCircle,
   Settings,
   Crown,
-  Kanban
+  Kanban,
+  LogOut
 } from "lucide-react";
 import { currentUser } from "@/data/user";
+import { useAuth } from "@/hooks/useAuth";
 import {
   Sidebar,
   SidebarContent,
@@ -49,6 +51,7 @@ export function CollapsibleSidebar() {
   const { state, toggleSidebar } = useSidebar();
   const location = useLocation();
   const currentPath = location.pathname;
+  const { signOut } = useAuth();
   
   const isCollapsed = state === "collapsed";
   
@@ -125,6 +128,15 @@ export function CollapsibleSidebar() {
               <div className="font-medium text-sm truncate">{currentUser.name}</div>
               <div className="text-xs text-muted-foreground truncate">{currentUser.role}</div>
             </div>
+          )}
+          {!isCollapsed && (
+            <button
+              onClick={signOut}
+              className="w-4 h-4 flex-shrink-0 text-muted-foreground hover:text-destructive transition-colors"
+              title="Sair"
+            >
+              <LogOut className="w-4 h-4" />
+            </button>
           )}
           <SidebarTrigger className="w-4 h-4 flex-shrink-0" />
         </div>
