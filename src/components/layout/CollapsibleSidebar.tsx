@@ -24,8 +24,6 @@ import {
   SidebarMenu,
   SidebarMenuButton,
   SidebarMenuItem,
-  SidebarTrigger,
-  useSidebar,
 } from "@/components/ui/sidebar";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 
@@ -48,14 +46,13 @@ const resourceItems = [
 ];
 
 export function CollapsibleSidebar() {
-  const { state, toggleSidebar } = useSidebar();
   const location = useLocation();
   const currentPath = location.pathname;
   const { signOut } = useAuth();
   const [isHovered, setIsHovered] = React.useState(false);
   
-  const isCollapsed = state === "collapsed";
-  const shouldShowExpanded = isHovered || !isCollapsed;
+  // Always collapsed by default, only expand on hover
+  const shouldShowExpanded = isHovered;
   
   const isActive = (path: string) => {
     if (path === "/") return currentPath === "/";
