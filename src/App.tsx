@@ -4,7 +4,7 @@ import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { SidebarProvider } from "@/components/ui/sidebar";
+
 import { CollapsibleSidebar } from "@/components/layout/CollapsibleSidebar";
 import { AuthProvider } from "@/hooks/useAuth";
 import { ProtectedRoute } from "@/components/layout/ProtectedRoute";
@@ -38,30 +38,28 @@ const App = () => (
             <Route path="/auth" element={<Auth />} />
             <Route path="/*" element={
               <ProtectedRoute>
-                <SidebarProvider defaultOpen={false}>
-                  <div className="min-h-screen w-full">
-                    <CollapsibleSidebar />
-                    <main className="transition-all duration-300 ease-in-out ml-16">
-                      <Routes>
-                        <Route path="/" element={<Index />} />
-                        <Route path="/tarefas" element={<TaskManagement />} />
-                        <Route path="/meus-projetos" element={<Projects />} />
-                        <Route path="/novo-projeto" element={<NewProject />} />
-                        <Route path="/analytics" element={<Analytics />} />
-                        <Route path="/deuses" element={<Gods />} />
-                        <Route path="/tutoriais" element={<Tutorials />} />
-                        <Route path="/ajuda" element={<Help />} />
-                        <Route path="/configuracoes" element={<Settings />} />
-                        <Route path="/projeto/:id" element={<ProjectDetail />} />
-                        <Route path="/projeto/:id/chat" element={<ProjectChat />} />
-                        <Route path="/projeto/:id/analytics" element={<ProjectAnalytics />} />
-                        <Route path="/projeto/:id/artifacts" element={<ProjectArtifacts />} />
-                        <Route path="/templates" element={<Templates />} />
-                        <Route path="*" element={<NotFound />} />
-                      </Routes>
-                    </main>
-                  </div>
-                </SidebarProvider>
+                <div className="min-h-screen w-full">
+                  <CollapsibleSidebar />
+                  <main className="transition-all duration-300 ease-in-out ml-16">
+                    <Routes>
+                      <Route path="/" element={<Index />} />
+                      <Route path="/tarefas" element={<TaskManagement />} />
+                      <Route path="/meus-projetos" element={<Projects />} />
+                      <Route path="/novo-projeto" element={<NewProject />} />
+                      <Route path="/analytics" element={<Analytics />} />
+                      <Route path="/deuses" element={<Gods />} />
+                      <Route path="/tutoriais" element={<Tutorials />} />
+                      <Route path="/ajuda" element={<Help />} />
+                      <Route path="/configuracoes" element={<Settings />} />
+                      <Route path="/projeto/:id" element={<ProjectDetail />} />
+                      <Route path="/projeto/:id/chat" element={<ProjectChat />} />
+                      <Route path="/projeto/:id/analytics" element={<ProjectAnalytics />} />
+                      <Route path="/projeto/:id/artifacts" element={<ProjectArtifacts />} />
+                      <Route path="/templates" element={<Templates />} />
+                      <Route path="*" element={<NotFound />} />
+                    </Routes>
+                  </main>
+                </div>
               </ProtectedRoute>
             } />
           </Routes>
